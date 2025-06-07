@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ankit's Portfolio</title>
+  <link rel="stylesheet" href="portfolio.css">
+</head>
+<body>
+  <nav class="navbar">
+    <div class="navbar-container">
+      <a href="#" class="navbar-logo">Ankit<span> Raj</span></a>
+      <ul class="navbar-links">
+        <li><a href="#about">About</a></li>
+        <li class="dropdown">
+          <a href="#projects-grid" class="dropdown-toggle">Projects</a>
+          <ul class="dropdown-menu">
+            <li><a href="image.jpeg">Web Projects</a></li>
+            <li><a href="#tools">Tools</a></li>
+          </ul>
+        </li>
+        <li><a href="#education-work">Education</a></li>
+        <li><a href="#resume-download">Resume</a></li>
+        <li><a href="#contact-button" class="contact-link">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+  
+  
+  <div class="portfolio-container">
+    <header class="header" id="about">
+      <div class="header-content">
+        <div class="header-text">
+          <p>Hello There !</p>
+          <h1 class="title">I'm <span class="highlighted-name">Ankit</span> <br> Full Stack Web Developer</h1>
+          <p class="subtitle">MCA Student | Interactive and Animated Projects</p>
+        </div>
+        <div class="header-image">
+          <img src="https://cdn.dribbble.com/userupload/43068048/file/original-b6975bc5bc7c7dcff731663a2494aa5b.gif" alt="Ankit's Profile" class="animated-image">
+        </div>
+      </div>
+    </header>
+
+    
+
+    <section id="education-work">
+      <h2 class="section-heading">
+        <span class="section-subtitle">— Education</span>
+        <br>
+        My <span class="highlighted">Academic</span> Journey
+      </h2>
+      <div class="journey-container">
+        <div id="education-section" class="journey-column">
+          <h3><img src="https://www.pngplay.com/wp-content/uploads/6/Education-Icon-PNG-HD-Quality.png" alt="Education Icon"> Education</h3>
+          <div id="education-list"></div>
+        </div>
+        <div id="fresher-section" class="journey-column">
+          <h3><img src="https://cdn-icons-png.flaticon.com/512/6956/6956765.png" alt="Fresher Icon"> Looking for Opportunities</h3>
+          <div class="fresher-description">
+            <p>
+              As a fresher with a strong academic background and a passion for web development, I am actively seeking an exciting opportunity to apply my skills, learn, and grow in the industry. I'm eager to contribute to innovative projects and work with a dynamic team.
+            </p>
+            <p>
+              If you're looking for a motivated, quick learner, feel free to reach out to me via the contact button below!
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+    
+
+    <section id="portfolio">
+      <div class="portfolio-header">
+        <p class="portfolio-intro">— My Portfolio</p>
+        <h2 class="portfolio-title">My Latest <span class="highlighted-title">Projects</span></h2>
+      </div>
+      <div class="projects-grid" id="projects-grid">
+        <!-- Projects will be dynamically loaded here -->
+      </div>
+    </section>
+    
+    <section id="resume-download" class="resume-section">
+      <h2 class="resume-title">Kickstart Your Hiring Process!</h2>
+      <p class="resume-text">As a fresher, I'm eager to contribute my skills and grow in the tech industry. Download my resume to explore my academic background, skills, and projects in detail.</p>
+      <a href="component.webp" class="resume-button" download>Download Resume</a>
+    </section>
+    
+    
+
+    <!-- Tools Section -->
+    <section id="tools" class="tools-section">
+      <h2 class="section-title">Exploring Tools</h2>
+      <div class="tools-container">
+        <div class="tool-icon">
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" alt="HTML5">
+          <p>HTML5</p>
+        </div>
+        <div class="tool-icon">
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" alt="CSS3">
+          <p>CSS3</p>
+        </div>
+        <div class="tool-icon">
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" alt="JavaScript">
+          <p>JavaScript</p>
+        </div>
+        <div class="tool-icon">
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" alt="React">
+          <p>React</p>
+        </div>
+        <div class="tool-icon">
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" alt="Node.js">
+          <p>Node.js</p>
+        </div>
+      </div>
+    </section>
+
+    
+    <footer class="footer">
+      <div class="footer-logo">
+        <img src="https://image.pngaaa.com/917/6903917-middle.png" alt="My Logo" class="footer-logo-image" />
+      </div>
+      <div class="footer-links">
+        <a href="https://github.com/" target="_blank" class="footer-link">
+          <img src="https://cdn.pixabay.com/photo/2022/01/30/13/33/github-6980894_960_720.png" alt="GitHub" />
+        </a>
+        <a href="https://www.instagram.com/" target="_blank" class="footer-link">
+          <img src="https://img.freepik.com/premium-psd/instagram-icon-isolated-white-background-camera-icon-photo-frame-social-media-app-button-logo_989822-4568.jpg?semt=ais_hybrid&w=740" alt="Instagram" />
+        </a>
+        <a href="https://www.linkedin.com/" target="_blank" class="footer-link">
+          <img src="https://cdn-icons-png.flaticon.com/256/174/174857.png" alt="LinkedIn" />
+        </a>
+      </div> <button class="contact-button" id="contact-button">Contact Me</button>
+      <p class="footer-text">© 2025 Your Name. All Rights Reserved.</p>
+    </footer>
+    
+  </div>
+
+  <script src="portfolio.js"></script>
+</body>
+</html>
